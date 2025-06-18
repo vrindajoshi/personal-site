@@ -1,9 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
+*{
+  font-family: 'Inter';
+  font-weight: 300;
+}
 
 .base {
-  background-color: #CCD5AE;
+  background-color: #E9EDC9;
   width: 100%;
   padding: 0;
   margin: 0;
+}
+
+.nav {
+  padding: 1vw 3vw;
+  margin: 2vw 3vw;
+  background-color: #CCD5AE;
+  border-radius: 10px;
+  border: #CCD5AE;
+  filter: drop-shadow(1px 1px 5px);
+}
+
+.buttons {
+  align-self: center;
 }
