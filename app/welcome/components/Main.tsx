@@ -4,20 +4,24 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export function Main() {
   return (
-    <div className="bg-[#CCD5AE] text-black py-8 px-6">
-      <div className="max-w-5xl mx-auto">
+    <div className="bg-[#CCD5AE] text-black py-16 px-8">
+      <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8 my-15">
 
           <div className="flex-shrink-0">
             <img
               src="/assets/headshot.JPG"
               alt="Vrinda's Headshot"
-              className="rounded-full w-48 h-48 object-cover border-4 border-black shadow-md"/>
+              className="rounded-full w-48 h-48 object-cover border-4 border-[#112100] shadow-md"/>
           </div>
 
-            <h1 className="text-6xl font-bold mb-4">Vrinda Joshi</h1>
-
-            <ul className="flex gap-6 text-4xl">
+          <div className="flex-shrink-0">
+            <img
+              src="/assets/VrindaJoshi.PNG"
+              alt="Vrinda's Headshot"
+              className="h-14 my-6 mx-4"/>
+          </div>
+            <ul className="flex gap-6 text-5xl my-6 text-[#112100]">
               <li>
                 <a
                   href="https://github.com/VrindaJoshi"
@@ -50,8 +54,7 @@ export function Main() {
           </div>
         </div>
 
-        {/* Description */}
-        <div className="mt-6 text-lg leading-relaxed">
+        <div className="mt-8 mx-auto text-lg leading-relaxed">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
