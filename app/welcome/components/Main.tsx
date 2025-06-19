@@ -2,33 +2,63 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-export function Main(){
-    return (
-    <div className="bg-[#CCD5AE] text-foreground py-4 px-6">
-        <div className="max-h-5xl max-w-5xl mx-auto">
-            <div className="header-banner my-6">
-                <div className="image">
-                <img src="/assets/headshot.JPG" alt="Vrinda's Headshot" className="rounded-full w-48 h-48 object-cover" />
-            </div>
-            <div className="title">
-                <h1>Vrinda Joshi</h1>
-            </div>
-            <div className="links">
-                <li><a href="https://github.com/VrindaJoshi"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li><a href="https://www.linkedin.com/in/joshivrinda/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                <li><a href="mailto:v32joshi@uwaterloo.ca"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-            </div>
-            <div className="header">
-                Systems Design Engineering @ UWaterloo
-            </div>
-            </div>
-            
-            <div className="description">
-                <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </h3>
-            </div>
+export function Main() {
+  return (
+    <div className="bg-[#CCD5AE] text-black py-8 px-6">
+      <div className="max-w-5xl mx-auto">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-8 my-15">
+
+          <div className="flex-shrink-0">
+            <img
+              src="/assets/headshot.JPG"
+              alt="Vrinda's Headshot"
+              className="rounded-full w-48 h-48 object-cover border-4 border-black shadow-md"/>
+          </div>
+
+            <h1 className="text-6xl font-bold mb-4">Vrinda Joshi</h1>
+
+            <ul className="flex gap-6 text-4xl">
+              <li>
+                <a
+                  href="https://github.com/VrindaJoshi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/joshivrinda/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:v32joshi@uwaterloo.ca"
+                  aria-label="Email"
+                >
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-    );
+
+        {/* Description */}
+        <div className="mt-6 text-lg leading-relaxed">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+  );
 }
