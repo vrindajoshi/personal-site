@@ -6,7 +6,7 @@ export function Main() {
   return (
     <div className="bg-[#CCD5AE] text-black py-16 px-8">
 
-        <div className="grid grid-flow-col grid-rows-3 gap-4 max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8 my-15">
+        <div className="grid grid-flow-col grid-rows-3 gap-4 max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8 mt-15 mb-0 pb-0">
           <div className="row-span-3">
               <div className="flex-shrink-0">
                 <img src="/assets/headshot.JPG"
@@ -66,8 +66,7 @@ export function Main() {
           </div>
 
         </div>
-
-        <div className="mt-8 mx-auto text-lg leading-relaxed">
+        <div className="grid max-w-4xl mx-auto flex flex-col md:flex-row">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -75,6 +74,7 @@ export function Main() {
             aliquip ex ea commodo consequat.
           </p>
         </div>
+
       </div>
   );
 }
