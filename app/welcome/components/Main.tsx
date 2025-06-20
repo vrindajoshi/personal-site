@@ -36,7 +36,7 @@ export function Main() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/joshivrinda/"
+                  href="https://www.linkedin.com/in/vrindaajoshi/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
