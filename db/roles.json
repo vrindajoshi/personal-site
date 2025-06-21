@@ -1,0 +1,25 @@
+{
+    "roles" : [
+        {
+            "id": 1,
+            "title": "Vice Chair, Co-Founder",
+            "company": "EmpowerED",
+            "skills": "Project Management, Community Outreach",
+            "dates": "Mar. 2024 - Jul. 2025"
+        },
+        {
+            "id": 2,
+            "title": "Full-Stack Developer",
+            "company": "NomNom",
+            "skills": "React Native, MongoDB, Entrepreneurship",
+            "dates": "May 2025 - Present"
+        },
+        {
+            "id": 3,
+            "title": "Front-End Intern",
+            "company": "TPS",
+            "skills": "Next.js, Typescript, Tailwind CSS",
+            "dates": "Jun. 2024 - Aug. 2024"
+        }
+    ]
+}
