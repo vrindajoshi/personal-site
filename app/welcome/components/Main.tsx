@@ -66,14 +66,14 @@ export function Main() {
           </div>
 
         </div>
-        <div className="grid max-w-4xl mx-auto flex flex-col md:flex-row">
+        {/*<div className="grid max-w-4xl mx-auto flex flex-col md:flex-row">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-        </div>
+        </div>*/}
 
       </div>
   );
