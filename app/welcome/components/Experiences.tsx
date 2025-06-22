@@ -21,9 +21,11 @@ export function Experiences() {
   }, []);
 
   return (
-    <div className="bg-[#CCD5AE] w-full">
+    <div className=" w-full">
       {/* Top wave */}
-      <img src="/assets/wave.svg" alt="Top Wave" className="w-full rotate-180" />
+      <div className="bg-[#CCD5AE]">
+        <img src="/assets/wave.svg" alt="Top Wave" className="w-full rotate-180 " />
+      </div>
 
       {/* Content section */}
       <div className="bg-[#283618] px-4">
@@ -42,7 +44,9 @@ export function Experiences() {
       </div>
 
       {/* Bottom wave */}
-      <img src="/assets/wave.svg" alt="Bottom Wave" className="w-full" />
+      <div className="bg-[#E9EDC9]">
+        <img src="/assets/wave.svg" alt="Top Wave" className="w-full" />
+      </div>
     </div>
   );
 }

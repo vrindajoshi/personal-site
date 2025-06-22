@@ -21,5 +21,22 @@
             "skills": "Next.js, Typescript, Tailwind CSS",
             "dates": "Jun. 2024 - Aug. 2024"
         }
+    ],
+
+    "projects": [
+        {
+        "id": 1,
+        "title": "NomNom",
+        "description": "A disguised safety app that helps domestic abuse victims seek help discreetly through a bakery interface.",
+        "link": "https://example.com/nomnom",
+        "skills": "React Native, MongoDB, UX Design",
+        "image": "/assets/nomnom.png",
+        "repo": "https://github.com/VrindaJoshi/NomNom",
+        "highlights": [
+            "Finalist for DMZ x myBlueprint Tech Grant",
+            "Implemented secure reporting flow with stealth UI",
+            "Used Expo & Firebase for cross-platform deployment"
+        ]
+        }
     ]
 }
