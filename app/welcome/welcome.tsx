@@ -1,6 +1,7 @@
 import { NavBar } from './components/NavBar';
 import { Main } from './components/Main';
 import { Experiences } from './components/Experiences';
+import { Projects } from './components/Projects';
 
 
 
@@ -10,6 +11,7 @@ export function Welcome() {
        <NavBar/>
        <Main/>
       <Experiences/>
+      <Projects/>
     
     </div>
   );

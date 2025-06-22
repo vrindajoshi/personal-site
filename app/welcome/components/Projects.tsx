@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ProjectList } from './ProjectList';
+import { ProjectsList } from './ProjectsList';
 
 export function Projects() {
   const [projects, setProjects] = useState(null);
@@ -26,14 +26,14 @@ export function Projects() {
       {/* Content section */}
       <div className="bg-[#E9EDC9] px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#FEFAE0] mb-10 align-right">
+          <h1 className="text-3xl md:text-4xl font-bold text-[#283618] mb-10 align-right">
             Projects
           </h1>
 
           <div className="grid-rows-2 ">
               {error && <div className="text-red-400 text-center">{error}</div>}
               {!projects && !error && <div className="text-[#FEFAE0] text-center">Loading...</div>}
-              {projects && <ProjectList articles={projects} />}
+              {projects && <ProjectsList projects={projects} />}
           </div>
           
         </div>
