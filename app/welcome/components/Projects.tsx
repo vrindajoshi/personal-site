@@ -26,7 +26,7 @@ export function Projects() {
       {/* Content section */}
       <div className="bg-[#E9EDC9] px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#283618] mb-10 align-right">
+          <h1 className="text-3xl md:text-4xl font-bold text-[#283618] my-10 align-right">
             Projects
           </h1>
 

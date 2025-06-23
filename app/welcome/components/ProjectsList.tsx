@@ -7,6 +7,7 @@ type Project = {
   image: string;
   repo: string;
   highlights: string[];
+  tags: string[];
 };
 
 type ProjectListProps = {
@@ -15,7 +16,7 @@ type ProjectListProps = {
 
 export function ProjectsList({ projects }: ProjectListProps) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
       {projects.map((project) => (
         <div
           key={project.id}
@@ -35,6 +36,17 @@ export function ProjectsList({ projects }: ProjectListProps) {
               <li key={i}>{highlight}</li>
             ))}
           </ul>
+
+          <div className="flex flex-wrap gap-2 mt-2">
+            {project.tags.map((tag, i) => (
+              <span
+                key={i}
+                className="bg-white text-[#] px-2 py-1 rounded-md text-xs font-medium">
+                {tag}
+              </span>
+            ))}
+          </div>
+
         </div>
       ))}
     </div>

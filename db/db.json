@@ -31,11 +31,104 @@
         "link": "https://example.com/nomnom",
         "skills": "React Native, MongoDB, UX Design",
         "image": "/assets/nomnom.png",
-        "repo": "https://github.com/VrindaJoshi/NomNom",
         "highlights": [
             "Finalist for DMZ x myBlueprint Tech Grant",
             "Implemented secure reporting flow with stealth UI",
             "Used Expo & Firebase for cross-platform deployment"
+        ],
+        "tags": [
+            "web dev",
+            "design"
+        ]
+        },
+        {
+        "id": 2,
+        "title": "QueueMe",
+        "description": "",
+        "link": "https://example.com/queueme",
+        "skills": "React Native, ExpoGO, UX Design",
+        "image": "/assets/queueme.png",
+        "highlights": [
+            "",
+            "",
+            ""
+        ],
+        "tags": [
+            "ios dev",
+            "design",
+            "hackathons"
+        ]
+        },
+        {
+        "id": 3,
+        "title": "EmpowerED Website",
+        "description": "",
+        "link": "https://example.com/queueme",
+        "skills": "React.js, Vercel, Git",
+        "image": "/assets/empowered.png",
+        "highlights": [
+            "",
+            "",
+            ""
+        ],
+        "tags": [
+            "web dev",
+            "design",
+            "project management"
+        ]
+        },
+        {
+        "id": 4,
+        "title": "BudgetBites",
+        "description": "",
+        "link": "https://example.com/budgetbites",
+        "skills": "HTML, CSS, JavaScript, Google Chrome API",
+        "image": "/assets/budgetbites.png",
+        "highlights": [
+            "",
+            "",
+            ""
+        ],
+        "tags": [
+            "web dev",
+            "design",
+            "hackathons"
+        ]
+        },
+        {
+        "id": 5,
+        "title": "DeBlizzard",
+        "description": "",
+        "link": "https://example.com/deblizzard",
+        "skills": "HTML, CSS, JavaScript",
+        "image": "/assets/deblizzard.png",
+        "highlights": [
+            "",
+            "",
+            ""
+        ],
+        "tags": [
+            "web dev",
+            "design",
+            "hackathons"
+        ]
+        },
+        {
+        "id": 6,
+        "title": "CakeIt",
+        "description": "",
+        "link": "https://example.com/cakeit",
+        "skills": "HTML, Java, OOP",
+        "image": "/assets/cakeit.png",
+        "highlights": [
+            "",
+            "",
+            ""
+        ],
+        "tags": [
+            "app dev",
+            "game dev",
+            "design"
         ]
         }
     ]
