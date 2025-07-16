@@ -44,7 +44,7 @@
         {
         "id": 2,
         "title": "QueueMe",
-        "description": "",
+        "description": "A lightweight mobile app to streamline waiting times with a quick remote check-in.",
         "link": "https://example.com/queueme",
         "skills": "React Native, ExpoGO, UX Design",
         "image": "/assets/queueme.png",
@@ -67,9 +67,8 @@
         "skills": "React.js, Vercel, Git",
         "image": "/assets/empowered.png",
         "highlights": [
-            "",
-            "",
-            ""
+            "Responsive design for both mobile and desktop",
+            "Managed team workflows using Git and GitHub"
         ],
         "tags": [
             "web dev",
@@ -85,9 +84,8 @@
         "skills": "HTML, CSS, JavaScript, Google Chrome API",
         "image": "/assets/budgetbites.png",
         "highlights": [
-            "",
-            "",
-            ""
+            "Top 4 Finalist at University of Toronto's EWB Hackathon",
+            "Developed a responsive website and Google Chrome Extension increasing accessibility to healthier meal options."
         ],
         "tags": [
             "web dev",
@@ -103,9 +101,8 @@
         "skills": "HTML, CSS, JavaScript",
         "image": "/assets/deblizzard.png",
         "highlights": [
-            "",
-            "",
-            ""
+            "Designed and developed DeBlizzard to connect seniors to volunteers, addressing social isolation.",
+            "Integrated Google Maps API for streamlined user interactions and improved accessibility features."
         ],
         "tags": [
             "web dev",
@@ -121,9 +118,8 @@
         "skills": "HTML, Java, OOP",
         "image": "/assets/cakeit.png",
         "highlights": [
-            "",
-            "",
-            ""
+            "Developed a Computer Assisted Instruction application to make Java education engaging",
+            "Integrated Game Dev features with an in-built parody of the game Cake Artist"
         ],
         "tags": [
             "app dev",
