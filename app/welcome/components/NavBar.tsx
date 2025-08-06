@@ -1,31 +1,44 @@
+import { useState } from "react";
+
 export function NavBar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const linkClasses =
+    "shadow-md py-2 px-6 my-2 bg-[#CCD5AE] border border-[#CCD5AE] rounded-[10px] drop-shadow text-lg font-medium hover:underline text-center";
+
   return (
     <nav className="bg-background text-foreground py-4 px-6 shadow-md">
-      <div className="flex justify-around flex-wrap max-w-5xl mx-auto">
-        <a
-          href="#home"
-          className="shadow-md py-[1vh] px-[3vw] my-[1vh] bg-[#CCD5AE] border border-[#CCD5AE] rounded-[10px] drop-shadow text-lg font-medium hover:underline"
+      <div className="max-w-5xl mx-auto">
+        {/* Toggle button aligned right */}
+        <div className="flex justify-end md:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-2xl focus:outline-none"
+            aria-label="Toggle navigation"
+          >
+            {isOpen ? "✖" : "☰"}
+          </button>
+        </div>
+
+        {/* Navigation links */}
+        <div
+          className={`flex flex-col md:flex-row md:justify-around md:items-center ${
+            isOpen ? "block" : "hidden"
+          } md:flex`}
         >
-          Home
-        </a>
-        <a
-          href="#experiences"
-          className="shadow-md py-[1vh] px-[3vw] my-[1vh] bg-[#CCD5AE] border border-[#CCD5AE] rounded-[10px] drop-shadow text-lg font-medium hover:underline"
-        >
-          Experiences
-        </a>
-        <a
-          href="#projects"
-          className="shadow-md py-[1vh] px-[3vw] my-[1vh] bg-[#CCD5AE] border border-[#CCD5AE] rounded-[10px] drop-shadow text-lg font-medium hover:underline"
-        >
-          Projects
-        </a>
-        <a
-          href="#contact"
-          className="shadow-md py-[1vh] px-[3vw] my-[1vh] bg-[#CCD5AE] border border-[#CCD5AE] rounded-[10px] drop-shadow text-lg font-medium hover:underline"
-        >
-          Contact
-        </a>
+          <a href="#home" className={linkClasses}>
+            Home
+          </a>
+          <a href="#experiences" className={linkClasses}>
+            Experiences
+          </a>
+          <a href="#projects" className={linkClasses}>
+            Projects
+          </a>
+          <a href="#contact" className={linkClasses}>
+            Contact
+          </a>
+        </div>
       </div>
     </nav>
   );
