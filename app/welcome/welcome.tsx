@@ -14,6 +14,7 @@ export function Welcome() {
       <Experiences/>
       <Projects/>
       <Contacts/>
+      
     
     </div>
   );
