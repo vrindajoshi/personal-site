@@ -17,7 +17,7 @@ export function Contacts() {
 
           <ul className="flex justify-center gap-10 text-4xl text-[#112100]">
             {/* Email */}
-            <li className="flex flex-col items-center">
+            <li className="flex items-center">
               <a
                 href="mailto:vrinda.joshi@uwaterloo.ca"
                 aria-label="Email"
@@ -25,11 +25,11 @@ export function Contacts() {
               >
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
-              <p className="text-sm mt-2">vrinda.joshi@uwaterloo.ca</p>
+              <p className="text-sm mt-2 mx-2">vrinda.joshi@uwaterloo.ca</p>
             </li>
 
             {/* LinkedIn */}
-            <li className="flex flex-col items-center">
+            <li className="flex items-center">
               <a
                 href="https://www.linkedin.com/in/vrindaajoshi/"
                 target="_blank"
@@ -39,20 +39,28 @@ export function Contacts() {
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <p className="text-sm mt-2">in/vrindaajoshi</p>
+              <p className="text-sm mt-2 mx-2">in/vrindaajoshi</p>
+            </li>
+
+            <li className="flex items-center">
+              <a
+                href="https://www.github.com/vrindajoshi"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="hover:text-[#3b4e2f] transition-colors"
+              >
+                <FontAwesomeIcon  icon={faGithub} />
+              </a>
+              <p className="text-sm mt-2 mx-2">GitHub</p>
             </li>
 
           </ul>
-        </div>
-      </div>
 
-      {/* Decorative Wave */}
-      <div className="bg-[#E9EDC9]">
-        <img
-          src="/assets/wave (1).svg"
-          alt="Decorative wave"
-          className="w-full rotate-180"
-        />
+          <footer className='mt-5'>
+  <p>&copy; Vrinda Joshi 2025</p>
+</footer>
+        </div>
       </div>
     </div>
   );
