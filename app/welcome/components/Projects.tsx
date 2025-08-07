@@ -39,7 +39,7 @@ export function Projects() {
         </div>
       </div>
        {/* Bottom wave */}
-      <div className="bg-[#E9EDC9]">
+      <div className="bg-[#E9EDC9] mt-20">
         <img src="/assets/wave (1).svg" alt="Top Wave" className="w-full" />
       </div>
     </div>
