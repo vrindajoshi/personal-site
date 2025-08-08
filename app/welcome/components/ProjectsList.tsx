@@ -47,15 +47,8 @@ export function ProjectsList({ projects }: ProjectListProps) {
                 </span>
               ))}
             </div>
-
-            {/* Highlights */}
-            {project.highlights.length > 0 && (
-              <ul className="list-disc list-inside text-sm mb-4">
-                {project.highlights.map((highlight, i) => (
-                  <li key={i}>{highlight}</li>
-                ))}
-              </ul>
-            )}
+            
+          
 
             {/* Links */}
             <div className="flex gap-4 mb-4">

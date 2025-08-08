@@ -26,7 +26,7 @@ export function NavBar() {
             isOpen ? "flex" : "hidden"
           } flex-col md:flex md:flex-row md:justify-around md:items-center gap-2 mt-4 md:mt-0`}
         >
-          <div className="flex flex-col md:flex-row w-full md:w-auto gap-2">
+          <div className="flex flex-col md:flex-row w-full md:w-auto gap-6">
             <a href="#home" className={linkClasses}>
              Home    
             </a>
