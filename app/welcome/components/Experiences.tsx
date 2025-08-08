@@ -21,7 +21,7 @@ export function Experiences() {
   }, []);
 
   return (
-    <div className=" w-full">
+    <div id="experiences" className=" w-full">
       {/* Top wave */}
       <div className="bg-[#CCD5AE]">
         <img src="/assets/wave.svg" alt="Top Wave" className="w-full rotate-180 " />

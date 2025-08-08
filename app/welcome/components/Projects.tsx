@@ -21,7 +21,7 @@ export function Projects() {
   }, []);
 
   return (
-    <div className=" w-full">
+    <div id="projects" className=" w-full">
      
       {/* Content section */}
       <div className="bg-[#E9EDC9] px-4">

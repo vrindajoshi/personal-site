@@ -4,7 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export function Contacts() {
   return (
-    <div className="w-full">
+    <div id="contact" className="w-full">
       {/* Contact Section */}
       <div className="bg-[#FEFAE0] px-4 py-12">
         <div className="max-w-4xl mx-auto text-center">

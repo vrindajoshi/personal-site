@@ -4,7 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export function Main() {
   return (
-    <div className="bg-[#CCD5AE] text-black py-16 px-8">
+    <div id="#home" className="bg-[#CCD5AE] text-black py-16 px-8">
 
         <div className="grid grid-flow-col grid-rows-3 gap-4 max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8 mt-15 mb-0 pb-0">
           <div className="row-span-3">
