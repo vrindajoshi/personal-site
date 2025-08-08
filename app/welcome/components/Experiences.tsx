@@ -36,7 +36,7 @@ export function Experiences() {
 
           <div className="grid-rows-2 ">
               {error && <div className="text-red-400 text-center">{error}</div>}
-              {!articles && !error && <div className="text-[#FEFAE0] text-center">Loading...</div>}
+              {!articles && !error && <div className="text-[#FEFAE0] text-center ">Loading...</div>}
               {articles && <RoleList articles={articles} />}
           </div>
           

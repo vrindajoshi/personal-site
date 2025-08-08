@@ -26,11 +26,11 @@
     "projects": [
         {
         "id": 1,
-        "title": "NomNom",
+        "title": "NomNom [IN PROGRESS]",
         "description": "A disguised safety app that helps domestic abuse victims seek help discreetly through a bakery interface.",
-        "link": "https://example.com/nomnom",
+        "link": "https://www.figma.com/proto/MXSp4IM6M78rAxIpYO6HDO/NomNom-iOS-App-Prototype?node-id=10-784&p=f&t=ckwpwAvGKLno9y3j-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
         "skills": "React Native, MongoDB, UX Design",
-        "image": "/assets/nomnom.png",
+        "image": "/assets/NomNom.png",
         "highlights": [
             "Finalist for DMZ x myBlueprint Tech Grant",
             "Implemented secure reporting flow with stealth UI",
@@ -45,7 +45,7 @@
         "id": 2,
         "title": "QueueMe",
         "description": "A lightweight mobile app to streamline waiting times with a quick remote check-in.",
-        "link": "https://example.com/queueme",
+        "link": "https://github.com/vrindajoshi/QueueMe",
         "skills": "React Native, ExpoGO, UX Design",
         "image": "/assets/queueme.png",
         "highlights": [
@@ -62,10 +62,10 @@
         {
         "id": 3,
         "title": "EmpowerED Website",
-        "description": "",
-        "link": "https://example.com/queueme",
+        "description": "Making STEM education more engaging, approachable, and inclusive for students everywhere.",
+        "link": "https://empower-ed.ca/",
         "skills": "React.js, Vercel, Git",
-        "image": "/assets/empowered.png",
+        "image": "/assets/logo.png",
         "highlights": [
             "Responsive design for both mobile and desktop",
             "Managed team workflows using Git and GitHub"
@@ -79,8 +79,8 @@
         {
         "id": 4,
         "title": "BudgetBites",
-        "description": "",
-        "link": "https://example.com/budgetbites",
+        "description": "Making healthy eating a piece of cake; A web app and chrome extension that searches for discounts on groceries, and shares easy recipes.",
+        "link": "https://github.com/vrindajoshi/BudgetBites",
         "skills": "HTML, CSS, JavaScript, Google Chrome API",
         "image": "/assets/budgetbites.png",
         "highlights": [
@@ -96,8 +96,8 @@
         {
         "id": 5,
         "title": "DeBlizzard",
-        "description": "",
-        "link": "https://example.com/deblizzard",
+        "description": "A user-centred web hub for volunteers to help out those living with disabilities during the winter months",
+        "link": "https://github.com/vrindajoshi/DeBlizzard",
         "skills": "HTML, CSS, JavaScript",
         "image": "/assets/deblizzard.png",
         "highlights": [
@@ -113,10 +113,10 @@
         {
         "id": 6,
         "title": "CakeIt",
-        "description": "",
-        "link": "https://example.com/cakeit",
+        "description": "A Computer Aided Instructional Software that combines in-built challenges to gamify Java for learners.",
+        "link": "https://github.com/vrindajoshi/ClassesAndObjectsCAI",
         "skills": "HTML, Java, OOP",
-        "image": "/assets/cakeit.png",
+        "image": "/assets/CAI.png",
         "highlights": [
             "Developed a Computer Assisted Instruction application to make Java education engaging",
             "Integrated Game Dev features with an in-built parody of the game Cake Artist"

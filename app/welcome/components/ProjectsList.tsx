@@ -16,13 +16,16 @@ type ProjectListProps = {
   projects: Project[];
 };
 
+  const divGlow = "w-64 h-40 bg-gray-800 rounded-lg flex items-center justify-center text-white transition-shadow duration-300 hover:shadow-[0_0_10px_2px_rgba(255,255,255,0.7)]"
+
+
 export function ProjectsList({ projects }: ProjectListProps) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
       {projects.map((project) => (
         <div
           key={project.id}
-          className="p-6 bg-[#3b4e2f] text-[#FEFAE0] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+          className="p-6 bg-[#3b4e2f] text-[#FEFAE0] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:shadow-[0_0_10px_2px_rgba(255,255,255,0.7)]"
         >
           <div className="flex flex-col justify-between h-full">
             {/* Title and Description */}
@@ -51,33 +54,17 @@ export function ProjectsList({ projects }: ProjectListProps) {
           
 
             {/* Links */}
-            <div className="flex gap-4 mb-4">
+            <div className="flex gap-4 mb-4 ">
               <a
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm underline hover:text-yellow-300"
+                className="text-sm hover:text-yellow-300"
               >
-                Live Site
-              </a>
-              <a
-                href={project.repo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm underline hover:text-yellow-300"
-              >
-                GitHub Repo
+                See More ↗
               </a>
             </div>
 
-            {/* Image */}
-            <div className="flex justify-center">
-              <img
-                src={project.image}
-                alt={`Screenshot of ${project.title}`}
-                className="rounded-full w-40 h-40 object-cover border-4 border-[#112100] shadow-md"
-              />
-            </div>
           </div>
         </div>
       ))}
