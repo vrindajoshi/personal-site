@@ -9,7 +9,7 @@ type Project = {
   image: string;
   repo: string;
   highlights: string[];
-  tags: string[];
+  tags: [string, string][]; // [tag, color]
 };
 
 type ProjectListProps = {
@@ -40,16 +40,18 @@ export function ProjectsList({ projects }: ProjectListProps) {
             </p>
 
             {/* Tags */}
-            <div className="flex flex-wrap gap-2 mb-4">
-              {project.tags.map((tag, i) => (
-                <span
-                  key={i}
-                  className="bg-white text-[#3b4e2f] px-2 py-1 rounded-md text-xs font-medium"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
+<div className="flex flex-wrap gap-2 mb-4">
+  {project.tags.map(([tag, color], id) => (
+    <span
+      key={id}
+      className="bg-white px-2 py-1 rounded-md text-xs font-medium"
+      style={{ color: color }}
+    >
+      {tag}
+    </span>
+  ))}
+</div>
+
             
           
 

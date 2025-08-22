@@ -37,8 +37,8 @@
             "Used Expo & Firebase for cross-platform deployment"
         ],
         "tags": [
-            "web dev",
-            "design"
+            ["web dev", "#ff0000"],
+            ["design", "#0000FF"]
         ]
         },
         {
@@ -54,9 +54,9 @@
             ""
         ],
         "tags": [
-            "ios dev",
-            "design",
-            "hackathons"
+            ["ios dev", "#06402B"],
+            ["design", "#0000FF"],
+            ["hackathons", "#FFA500"]
         ]
         },
         {
@@ -71,9 +71,9 @@
             "Managed team workflows using Git and GitHub"
         ],
         "tags": [
-            "web dev",
-            "design",
-            "project management"
+            ["web dev", "#ff0000"],
+            ["design", "#0000FF"],
+            ["project management", "#FD3DB5"]
         ]
         },
         {
@@ -88,9 +88,9 @@
             "Developed a responsive website and Google Chrome Extension increasing accessibility to healthier meal options."
         ],
         "tags": [
-            "web dev",
-            "design",
-            "hackathons"
+            ["web dev", "#ff0000"],
+            ["design", "#0000FF"],
+            ["hackathons", "#FFA500"]
         ]
         },
         {
@@ -105,9 +105,9 @@
             "Integrated Google Maps API for streamlined user interactions and improved accessibility features."
         ],
         "tags": [
-            "web dev",
-            "design",
-            "hackathons"
+            ["web dev", "#ff0000"],
+            ["design", "#0000FF"],
+            ["hackathons", "#FFA500"]
         ]
         },
         {
@@ -122,9 +122,9 @@
             "Integrated Game Dev features with an in-built parody of the game Cake Artist"
         ],
         "tags": [
-            "app dev",
-            "game dev",
-            "design"
+            ["app dev", "#FD3DB5"],
+            ["game dev", "#008000"],
+            ["design", "#0000FF"]
         ]
         }
     ]
