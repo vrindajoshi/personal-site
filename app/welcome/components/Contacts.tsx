@@ -8,14 +8,14 @@ export function Contacts() {
       {/* Contact Section */}
       <div className="bg-[#FEFAE0] px-4 py-12">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#112100] mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold text-[#435576] mb-4">
             Thanks for scrolling all the way down.
           </h1>
-          <h2 className="text-2xl md:text-3xl text-[#112100] mb-8">
+          <h2 className="text-2xl md:text-3xl text-[#435576] mb-8">
             Let’s make that time worth it—let’s connect!
           </h2>
 
-          <ul className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 sm:gap-10 text-4xl text-[#112100]">
+          <ul className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 sm:gap-10 text-4xl text-[#435576]">
             {/* Email */}
             <li className="flex flex-col items-center sm:flex-row">
               <a
@@ -57,7 +57,13 @@ export function Contacts() {
             </li>
           </ul>
 
-          <footer className="mt-8 text-sm text-[#112100]">
+          <img
+          src="/assets/Untitled.svg"
+          alt="Flower"
+          className="py-8 max-w-5xl mx-auto px-4 max-h-30"
+        />
+
+          <footer className="text-sm text-[#435576]">
             <p>&copy; Vrinda Joshi 2025</p>
           </footer>
         </div>
