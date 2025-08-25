@@ -4,9 +4,25 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export function Contacts() {
   return (
-    <div id="contact" className="w-full">
+    <div id="contact" className="w-full grid grid-cols-5 bg-[#FEFAE0]">
+
+      <div className="col-span-1 flex items-end justify-end">
+  <div className="flex space-x-2">
+    <img
+      src="/assets/flower-2.svg"
+      alt="Decorative flower"
+      className="h-40 w-auto"
+    />
+    <img
+      src="/assets/flower-1.svg"
+      alt="Decorative flower"
+      className="h-40 w-auto"
+    />
+  </div>
+</div>
+
       {/* Contact Section */}
-      <div className="bg-[#FEFAE0] px-4 py-12">
+      <div className="bg-[#FEFAE0] px-4 py-12 col-span-3">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-[#435576] mb-4">
             Thanks for scrolling all the way down.
@@ -57,17 +73,26 @@ export function Contacts() {
             </li>
           </ul>
 
-          <img
-          src="/assets/Untitled.svg"
-          alt="Flower"
-          className="py-8 max-w-5xl mx-auto px-4 max-h-30"
-        />
-
-          <footer className="text-sm text-[#435576]">
+          <footer className="text-sm text-[#435576] pt-10">
             <p>&copy; Vrinda Joshi 2025</p>
           </footer>
         </div>
       </div>
+
+      <div className="col-span-1 flex items-end justify-start">
+  <div className="flex space-x-2">
+    <img
+      src="/assets/flower-3.svg"
+      alt="Decorative flower"
+      className="h-40 w-auto"
+    />
+    <img
+      src="/assets/flower-4.svg"
+      alt="Decorative flower"
+      className="h-40 w-auto"
+    />
+  </div>
+</div>
     </div>
   );
 }

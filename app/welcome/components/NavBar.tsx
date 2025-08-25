@@ -11,19 +11,10 @@ export function NavBar() {
       className="text-[#435576] shadow-md"
       style={{ backgroundColor: "rgba(67, 85, 118, 0.15)" }}
     >
-      <div className="grid grid-cols-5 items-center max-w-6xl mx-auto px-4 py-4">
-
-        {/* Left Logo */}
-        <div className="flex justify-center items-center col-span-1">
-          <img
-            src="/assets/Untitled.svg"
-            alt="Flower Logo Left"
-            className="h-16 w-auto"
-          />
-        </div>
+      <div className="items-center max-w-6xl mx-auto px-4 py-4">
 
         {/* Nav links + toggle button in center */}
-        <div className="col-span-3 flex flex-col md:flex-row items-center justify-center gap-4">
+        <div className=" flex flex-col md:flex-row items-center justify-center gap-4">
           {/* Toggle button (mobile only) */}
           <div className="md:hidden">
             <button
@@ -51,15 +42,6 @@ export function NavBar() {
               Contact
             </a>
           </div>
-        </div>
-
-        {/* Right Logo */}
-        <div className="flex justify-center items-center col-span-1">
-          <img
-            src="/assets/Untitled.svg"
-            alt="Flower Logo Right"
-            className="h-16 w-auto"
-          />
         </div>
       </div>
 
