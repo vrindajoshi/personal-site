@@ -48,7 +48,7 @@ export function ProjectsList({ projects }: ProjectListProps) {
         {filteredProjects.map((project) => (
           <div
             key={project.id}
-            className="p-6 bg-[#3b4e2f] text-[#FEFAE0] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:shadow-[0_0_10px_2px_rgba(255,255,255,0.7)]"
+            className="p-6 bg-[#455763] text-[#FEFAE0] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:shadow-[0_0_10px_2px_rgba(255,255,255,0.7)]"
           >
             <div className="flex flex-col justify-between h-full">
               {/* Title and Description */}

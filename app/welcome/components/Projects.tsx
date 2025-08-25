@@ -6,7 +6,6 @@ export function Projects() {
   const [error, setError] = useState(null);
   const divGlow = "w-64 h-40 bg-gray-800 rounded-lg flex items-center justify-center text-white transition-shadow duration-300 hover:shadow-[0_0_10px_2px_rgba(255,255,255,0.7)]"
 
-
   useEffect(() => {
     fetch('http://localhost:3000/projects')
       .then(res => {
@@ -26,7 +25,7 @@ export function Projects() {
     <div id="projects" className=" w-full">
      
       {/* Content section */}
-      <div className="bg-[#E9EDC9] px-4">
+      <div className="bg-[#D3DADC] px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-[#283618] my-10 align-right">
             Projects
@@ -41,7 +40,7 @@ export function Projects() {
         </div>
       </div>
        {/* Bottom wave */}
-      <div className="bg-[#E9EDC9] mt-20">
+      <div className="bg-[#D3DADC] mt-20">
         <img src="/assets/wave (1).svg" alt="Top Wave" className="w-full" />
       </div>
     </div>

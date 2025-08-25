@@ -4,11 +4,16 @@ export function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const linkClasses =
-    "flex-1 text-center py-2 px-4 bg-[#CCD5AE] border border-[#CCD5AE] rounded-[10px] drop-shadow text-lg font-medium hover:underline shadow-md";
+    "flex-1 opacity-100 text-center py-2 px-6 bg-[#D3DADC] border border-[#D3DADC] rounded-[10px] drop-shadow text-lg font-medium hover:underline shadow-md";
 
   return (
-    <nav className="bg-background text-foreground py-4 shadow-md">
-      <div className="max-w-5xl mx-auto px-4">
+    <nav className="text-foreground shadow-md" style={{ backgroundColor: "rgba(67, 85, 118, 0.15)" }}>
+   <img
+  src="/assets/flower4.svg"
+  alt="Flower"
+  className="max-h-sm filter invert(1) brightness(0) saturate(1000%)"
+/>
+      <div className="py-8 max-w-5xl mx-auto px-4">
         {/* Toggle button aligned right */}
         <div className="flex justify-end md:hidden">
           <button

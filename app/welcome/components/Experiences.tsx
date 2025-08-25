@@ -23,12 +23,12 @@ export function Experiences() {
   return (
     <div id="experiences" className=" w-full">
       {/* Top wave */}
-      <div className="bg-[#CCD5AE]">
+      <div className="bg-[#D3DADC]">
         <img src="/assets/wave.svg" alt="Top Wave" className="w-full rotate-180 " />
       </div>
 
       {/* Content section */}
-      <div className="bg-[#283618] px-4">
+      <div className="bg-[#435576] px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-[#FEFAE0] mb-10">
             Experience
@@ -44,7 +44,7 @@ export function Experiences() {
       </div>
 
       {/* Bottom wave */}
-      <div className="bg-[#E9EDC9]">
+      <div className="bg-[#D3DADC]">
         <img src="/assets/wave.svg" alt="Top Wave" className="w-full" />
       </div>
     </div>
