@@ -58,8 +58,8 @@ export function Main() {
           </div>
 
           <div className="md:col-span-3 flex justify-center md:justify-start">
-            <div className="flex items-center gap-4 border-2 border-[#435576] rounded-[10px] mr-4 px-4 py-2 hover:bg-[#435576]">
-              <h2 className="text-xl font-semibold text-[#435576] hover:text-[#FEFAE0] hover:bg-[#435576]">Systems Design Engineering</h2>
+            <div className="flex items-center gap-4 border-2 border-[#435576] rounded-[10px] mr-4 hover:bg-[#435576]">
+              <h2 className="px-4 py-2 text-xl font-semibold text-[#435576] hover:text-[#FEFAE0] hover:bg-[#435576]">Systems Design Engineering</h2>
             </div>
             <div className="flex items-center gap-4 py-2">
               <h2 className="text-xl text-[#435576] items-center">@ University of Waterloo</h2>
