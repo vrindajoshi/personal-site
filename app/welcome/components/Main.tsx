@@ -17,7 +17,7 @@ export function Main() {
 
           <div className="col-span-2 display-block flex">
             <div className="flex-shrink-0 flex">
-            <h1 className="text-5xl black text-[#435576] gap-6 mt-6 mr-12">Vrinda Joshi</h1>
+            <h1 className="text-5xl text-bold text-[#435576] gap-6 mt-6 mr-12">Vrinda Joshi</h1>
           
 
             <ul className="flex gap-6 text-5xl mt-6 align-right text-[#435576] flex">
@@ -45,7 +45,7 @@ export function Main() {
               </li>
               <li>
                 <a
-                  href="mailto:v32joshi@uwaterloo.ca"
+                  href="mailto:vrinda.joshi@uwaterloo.ca"
                   aria-label="Email"
                   className='hover:text-[#435576]'
                 >
