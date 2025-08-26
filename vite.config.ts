@@ -4,5 +4,10 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
+  base: "/vrindajoshi.github.io/", 
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
+  server: {
+    open: true,
+    port: 3001,
+  },
 });
