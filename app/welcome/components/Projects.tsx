@@ -7,7 +7,7 @@ export function Projects() {
   const divGlow = "w-64 h-40 bg-gray-800 rounded-lg flex items-center justify-center text-white transition-shadow duration-300 hover:shadow-[0_0_10px_2px_rgba(255,255,255,0.7)]"
 
   useEffect(() => {
-    fetch('http://localhost:3000/projects')
+    fetch('https://personal-site-db.vercel.app/projects')
       .then(res => {
         if (!res.ok) throw Error('Could not fetch roles.');
         return res.json();

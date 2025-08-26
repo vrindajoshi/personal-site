@@ -6,7 +6,7 @@ export function Experiences() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/roles')
+    fetch('https://personal-site-db.vercel.app/roles')
       .then(res => {
         if (!res.ok) throw Error('Could not fetch roles.');
         return res.json();
