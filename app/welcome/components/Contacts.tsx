@@ -7,7 +7,7 @@ export function Contacts() {
     <div id="contact" className="w-full grid grid-cols-5 bg-[#FEFAE0]">
 
       <div className="col-span-1 flex items-end justify-end">
-  <div className="flex space-x-2">
+  <div className="hidden md:flex space-x-2">
     <img
       src="/assets/flower-2.svg"
       alt="Decorative flower"
@@ -80,7 +80,7 @@ export function Contacts() {
       </div>
 
       <div className="col-span-1 flex items-end justify-start">
-  <div className="flex space-x-2">
+  <div className="hidden md:flex space-x-2">
     <img
       src="/assets/flower-3.svg"
       alt="Decorative flower"

@@ -27,13 +27,13 @@ export function Projects() {
       {/* Content section */}
       <div className="bg-[#D3DADC] px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#283618] my-10 align-right">
+          <h1 className="text-3xl md:text-4xl font-bold text-[#435576] my-10 align-right">
             Projects
           </h1>
 
           <div className="grid-rows-2 ">
               {error && <div className="text-red-400 text-center">{error}</div>}
-              {!projects && !error && <div className="text-[#FEFAE0] text-center">Loading...</div>}
+              {!projects && !error && <div className="text-[#435576] text-center">Loading...</div>}
               {projects && <ProjectsList projects={projects} />}
           </div>
           
